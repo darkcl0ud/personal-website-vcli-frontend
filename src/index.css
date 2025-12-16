@@ -1,7 +1,6 @@
 @import "tailwindcss";
 
 @theme {
-    --font-brand: "Google Sans", sans-serif;
     --font-code: "Ubuntu Mono", monospace;
     --color-code-500: #3DFB35;
     --animate-infinite-scroll: infinite-scroll 140s linear infinite;
@@ -43,47 +42,6 @@
     }
 }
 
-/* --- Google Sans (Variable) --- */
-@font-face {
-    font-family: "Google Sans";
-    src: url("./assets/fonts/GoogleSans-VariableFont_GRAD,opsz,wght.ttf") format("truetype");
-    font-weight: 100 900;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: "Google Sans";
-    src: url("./assets/fonts/GoogleSans-Italic-VariableFont_GRAD,opsz,wght.ttf") format("truetype");
-    font-weight: 100 900;
-    font-style: italic;
-    font-display: swap;
-}
-
-/* --- Google Sans Code (Variable) --- */
-@font-face {
-    font-family: "Google Sans Code";
-    src: url("./assets/fonts/GoogleSansCode-VariableFont_wght.ttf") format("truetype");
-    font-weight: 100 900;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: "Google Sans Code";
-    src: url("./assets/fonts/GoogleSansCode-Italic-VariableFont_wght.ttf") format("truetype");
-    font-weight: 100 900;
-    font-style: italic;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: "Pixelify Sans";
-    src: url("./assets/fonts/PixelifySans-VariableFont_wght.ttf") format("truetype");
-    font-weight: 100 900;
-    font-style: normal;
-    font-display: swap;
-}
 
 @font-face {
     font-family: "Ubuntu Mono";
